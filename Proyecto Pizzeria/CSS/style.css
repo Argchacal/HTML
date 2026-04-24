@@ -1,0 +1,33 @@
+body {
+    background-color: #A15337;
+}
+
+h1 {
+    color: #3B8B7D;
+}
+
+section {
+    display: inline;
+}
+
+.card {
+    display: inline-block;
+    background: #ffffff1a;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    border: 1px solid #070504;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    wi
+    }
+
+img {
+    width: 180px;
+    border-radius: 0.5rem;
+    width: 100%;
+}
