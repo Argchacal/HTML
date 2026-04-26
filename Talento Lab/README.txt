@@ -48,3 +48,81 @@ Usá etiquetas <table>, <thead>, <tbody>, <tr>, <th>, <td>.
 ● La estructura real del HTML.
 ● Qué pasa si cambiás estilos desde la consola.
 ● Cómo se ve el padding o el border de cada celda
+
+clase4
+
+Ejercicio práctico #1
+Incorporar CSS externo
+¿Qué tenés que hacer?
+● Crear un archivo llamado styles.css en la misma carpeta donde está tu archivo HTML.
+● Vincular ese archivo CSS dentro del <head> de todos tus HTML con la línea:
+<link rel="stylesheet" href="styles.css">
+● Asegurarte de tener un <header> con un título y un <footer> con un texto de derechos reservados.
+<header> <h1>Mi Sitio Web</h1> </header> <footer> <p>© 2024 Mi Sitio Web. Todos los derechos reservados.</p> </footer>
+● En el archivo styles.css, aplicar estilos para:
+○ Cambiar el color de fondo del header y footer.
+○ Cambiar el estilo de la fuente (tipo, tamaño, color).
+○ Aplicar márgenes o padding para separar elementos.
+○ Usar al menos un selector de clase y un selector de elemento.
+
+Ejercicio práctico #2:
+Modificar la barra de navegación (Navbar)
+¿Qué tenés que hacer?
+● Asegurarte que tu HTML tiene una barra de navegación similar a esta:
+<nav> <ul> <li><a href="#">Inicio</a></li> <li><a href="#">Acerca de</a></li> <li><a href="#">Servicios/Productos</a></li> <li><a href="#">Contacto</a></li> </ul> </nav>
+● En styles.css, aplicar estos estilos:
+○ Usar list-style: none; para que la lista no tenga viñetas.
+○ Quitar el subrayado de los enlaces con text-decoration: none;.
+○ Cambiar el color del texto de los enlaces con la propiedad color.
+
+
+clase5
+Ejercicio práctico #1
+Tipografía con Fuente Externa
+Usar Google Fonts para personalizar las fuentes del sitio web.
+Pasos a seguir:
+1. Ingresá a https://fonts.google.com y elegí dos fuentes:
+○ Una para los títulos.
+○ Otra para los párrafos.
+2. Copiá el enlace que te da Google Fonts y pegalo dentro del <head> de tu archivo HTML.
+
+Ejercicio práctico #2:
+Fondo personalizado
+Aplicar un fondo visual que refleje estilo y coherencia de diseño.
+Opciones posibles:
+● Imagen de fondo: agregá una imagen al body o a una sección con background-image.
+● Degradado: usá background: linear-gradient(...) para generar un efecto moderno.
+
+
+Clase6
+Ejercicio práctico #1
+Crear tarjetas de producto con estilos completos
+Tomás (Desarrollador Senior)
+“Ahora que dominan medidas, colores, fuentes y el modelo de caja, ¡es momento de crear algo más real! Vamos a construir tarjetas de producto usando todas las propiedades que fueron aprendiendo.”
+¿Qué tenés que hacer?
+Dentro de tu page servicios/productos en una sección dentro del <main> (<section class="productos">), creá al menos 3 tarjetas de producto pueden utilizar etiquetas como <article> .
+Cada tarjeta debe tener:
+● Imagen del producto
+● Nombre del producto (con fuente externa)
+● Descripción breve
+● Precio destacado
+● Un botón de “Agregar al carrito” con ícono de Font Awesome o Flaticon.
+
+Ejercicio práctico #2
+Crear tarjetas de producto con estilos completos
+Tomás (Desarrollador Senior)
+“Ahora que dominan medidas, colores, fuentes y el modelo de caja, ¡es momento de crear algo más real! Vamos a construir tarjetas de producto usando todas las propiedades que fueron aprendiendo.”
+¿Qué tenés que hacer?
+Dentro de tu page servicios/productos en una sección dentro del <main> (<section class="productos">), creá al menos 3 tarjetas de producto pueden utilizar etiquetas como <article> .
+Cada tarjeta debe tener:
+● Imagen del producto
+● Nombre del producto (con fuente externa)
+● Descripción breve
+● Precio destacado
+● Un botón de “Agregar al carrito” con ícono de Font Awesome o Flaticon.
+(<a>).
+En tu CSS, usá display flex en la lista para distribuir horizontalmente los ítems.
+Usá propiedades como:
+● justify-content: space-around o space-between
+● text-decoration: none para quitar el subrayado
+● padding, color, background-color para darle estilo

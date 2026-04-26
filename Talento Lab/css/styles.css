@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Original+Surfer&family=Risque&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+* {
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+main {
+    background: linear-gradient(red, blue);}
+
+header{
+    background-color: rgba(241, 187, 121, 0.815);
+
+}
+
+h1 {
+    font-size: 60px;
+    color: red;
+    margin: 20px;
+    padding: 50px;
+}
+
+h2 {
+    font-family:  "Roboto", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: rgb(160, 7, 7);
+}
+
+.parrafo_main {
+    background-color: rgb(112, 155, 32);
+    color: black;
+    font-size: 30px;
+    padding: 5px
+    
+}
+
+footer {
+    background-color: aqua;
+}
+
+.navegador_head ul li{
+    display: inline;
+    list-style: none;
+    color: rgb(44, 87, 58);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40px;
+    text-decoration: none;
+
+}
+
+header nav ul li a {
+    color: rgb(194, 13, 176);
+}
+
+header nav ul li:hover a{
+    background-color: rgba(109, 20, 20, 0.836);
+    color: yellow;
+    padding: 5px;
+}

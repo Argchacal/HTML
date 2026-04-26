@@ -8,8 +8,17 @@ h1 {
     color: #3B8B7D;
 }
 
+.logo {
+   width: 50%;
+}
+
 header .navegador li :hover {
     background: rgb(248, 108, 108);
+}
+
+.promo {
+    width: 50%;
+    height: 50%;
 }
 
 section {
@@ -52,12 +61,16 @@ li{
 }
 
 .tabla_precios {
-    text-align: center;
-    align-content: center;
-    align-items: center;
     background: rgba(54, 0, 0, 0.212);
+}
+
+th, td {
+    text-align: left;
+    color: black;
     
 }
+
+
 
 .botom_orden {
     background: rgba(255, 255, 0, 0.384);
@@ -74,5 +87,16 @@ li{
 .card:hover {
     background: #c24112;
 }
+
+footer {
+    display: inline-flex;
+    padding: 1rem;
+    text-align: center;
+}
+footer a {
+    padding: 1rem;
+    
+}
+
 
 

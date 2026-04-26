@@ -8,26 +8,29 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <head>
+    <header id="inicio">
         <H1>Practicas de Talento Lab</H1>
         <img src="imagenes/images.jpg" alt="Logo TalentoTech">
-        <nav>
+        <nav class="navegador_head">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
            
         </nav>
-    </head>
+    </header>
     <main>
-        <h3>Contenido del Main</h3>
+        <h2>Contenido del Main</h2>
+        <p class="parrafo_main">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Expedita inventore quae sequi. Odio doloribus officiis optio
+         totam doloremque atque esse illo neque modi beatae! Quibusdam nam inventore ullam nostrum perspiciatis!</p>
         <section>
             <video controls poster="preview.jpg" width="600" height="400">
             <source src="videos/perrito_html_js.mp4" type="video/mp4">> </video>
         </section>
-        
-        <p>Aqui una lista de productos</p>
+        <section id="productos">
+            <p>Aqui una lista de productos</p>
             <ol>
                 <li>Productos </li>
                 <li>Productos </li>
@@ -35,9 +38,45 @@
                 <li>Productos </li>
                 <li>Productos </li>
             </ol>
+        </section>    
+        <caption>Tabla Practica</caption>
+        <table>
+            <thead>
+                <tr> 
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Telefono</th> 
+                </tr>              
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Marcelo</td>
+                    <td>Ayala</td>
+                    <td>121321412</td>
+                </tr>
+                <tr>
+                    <td>Marclos</td>
+                    <td>Parejo</td>
+                    <td>125264412</td>
+                </tr> 
+                <tr>
+                    <td>Marcela</td>
+                    <td>Perez</td>
+                    <td>121321412</td>
+                </tr> 
+                <tr>
+                    <td>Laura</td>
+                    <td>Altamira</td>
+                    <td>121354896</td>
+                </tr>  
+
+            </tbody>
+        </table>
+        
     </main>
 
-    <section>
+
+    <section id="contacto">
         <h3>Aca van los contactos</h3>
     </section>
     <section>
