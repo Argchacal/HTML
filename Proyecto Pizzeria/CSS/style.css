@@ -1,9 +1,15 @@
-body {
+* {
     background-color: #A15337;
+    align-self: center;
+    text-align: center;
 }
 
 h1 {
     color: #3B8B7D;
+}
+
+header .navegador li :hover {
+    background: rgb(248, 108, 108);
 }
 
 section {
@@ -15,19 +21,58 @@ section {
     background: #ffffff1a;
     border-radius: 15px;
     padding: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    text-align: center;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.1);
+    text-align: left;
     border: 1px solid #070504;
     border-radius: 0.5rem;
     padding: 0.5rem;
-    width: 200px;
-    min-width: 200px;
-    max-width: 200px;
-    wi
+    width: 300px;
+    height: 400px;
     }
 
 img {
-    width: 180px;
-    border-radius: 0.5rem;
+    border-radius:0.5rem;
     width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
+    
+nav {
+    display: inline-block;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+
+}
+
+li{
+    margin: 0.5rem;
+}
+
+.tabla_precios {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background: rgba(54, 0, 0, 0.212);
+    
+}
+
+.botom_orden {
+    background: rgba(255, 255, 0, 0.384);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.botom_orden:hover {
+    background-color: #0c6132;
+    color: yellow;
+
+}
+
+.card:hover {
+    background: #c24112;
+}
+
+
