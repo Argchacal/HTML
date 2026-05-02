@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Porfolio</title>
     <script src="https://kit.fontawesome.com/63e39d93df.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li>Sobre mi</li>
+                <li><a href="#sobre_mi">Sobre mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <H1>Marcelo ayala</H1>
-    <section>
+    <section id="sobre_mi">
         <h2>Sobre Mi</h2>
         <p>Soy <strong>Marcelo Eduardo ayala</strong></p>
         <p>Soy un trabajador que participo en diferentes rubros en mi trayectoria laboral, <br>
@@ -42,22 +45,29 @@
             </ol>
         </nav>
     </section>
-    <img src="https://picsum.photos/200/300?randmon=1" alt="imagen aleatoria"> <!-- incerta imagen aleatoria -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <article class="card_proyecto">
+            <h3>Nombre del proyecto</h3>
+            <img src="https://picsum.photos/200/300?randmon=1" alt="imagen aleatoria"> <!-- incerta imagen aleatoria -->
+            <p>Descripcion</p>
+            <ol>
+                <p>listado</p>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ol>
+        </article>
+
+    </section>
     <footer>
         <p>Derechos reservados</p>
-        <p>link a linkedin</p>
-        <a href="https://www.linkedin.com/in/marcelo-ayala-eduardo/"  target="_blank"> <img src="IMG\linkedin-circle.png" alt="Enlace linkedin" width="40"></a>
-       
-        <p>link a instagram</p>
-        <a href="https://www.instagram.com/"  target="_blank"> <img src="IMG\instagram-circle.png" alt="Enlace instagram" width="40"></a>
-
-        <p>link a git</p>
-        <a href="https://github.com/Argchacal"  target="_blank"> <img src="IMG\github.png" alt="Enlace github" width="40"></a>
-        <p>link a correo electronico</p>
-        <a href="mailto: pyargtech@gmail.com"  target="_blank" > <img src="IMG\en.png" alt="Enlace correo electronico" width="40"></a>
-
-
-        <p></p>
+        <section class="nav_footer">
+            <a href="https://www.linkedin.com/in/marcelo-ayala-eduardo/"  target="_blank"> <img src="IMG\linkedin-circle.png" alt="Enlace linkedin" width="40"></a>
+            <a href="https://www.instagram.com/"  target="_blank"> <img src="IMG\instagram-circle.png" alt="Enlace instagram" width="40"></a>
+            <a href="https://github.com/Argchacal"  target="_blank"> <img src="IMG\github.png" alt="Enlace github" width="40"></a>
+            <a href="mailto: pyargtech@gmail.com"  target="_blank" > <img src="IMG\en.png" alt="Enlace correo electronico" width="40"></a>
+        </section>
     </footer>
 </body>
 </html>
