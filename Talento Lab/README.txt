@@ -93,8 +93,8 @@ Opciones posibles:
 ● Imagen de fondo: agregá una imagen al body o a una sección con background-image.
 ● Degradado: usá background: linear-gradient(...) para generar un efecto moderno.
 
-
 Clase6
+
 Ejercicio práctico #1
 Crear tarjetas de producto con estilos completos
 Tomás (Desarrollador Senior)
@@ -109,18 +109,22 @@ Cada tarjeta debe tener:
 ● Un botón de “Agregar al carrito” con ícono de Font Awesome o Flaticon.
 
 Ejercicio práctico #2
-Crear tarjetas de producto con estilos completos
-Tomás (Desarrollador Senior)
-“Ahora que dominan medidas, colores, fuentes y el modelo de caja, ¡es momento de crear algo más real! Vamos a construir tarjetas de producto usando todas las propiedades que fueron aprendiendo.”
+Tarjetas de producto
+Lucía – Product Owner
+“Ya aprendiste a diseñar las tarjetas de producto. Ahora vamos a enfocarnos en cómo distribuirlas correctamente en pantalla. Y no solo eso: también te voy a mostrar cómo se usa Flexbox en otras partes clave de la web, como la barra de navegación.”
 ¿Qué tenés que hacer?
-Dentro de tu page servicios/productos en una sección dentro del <main> (<section class="productos">), creá al menos 3 tarjetas de producto pueden utilizar etiquetas como <article> .
-Cada tarjeta debe tener:
-● Imagen del producto
-● Nombre del producto (con fuente externa)
-● Descripción breve
-● Precio destacado
-● Un botón de “Agregar al carrito” con ícono de Font Awesome o Flaticon.
-(<a>).
+● Una distribución de productos con Flexbox
+1. Dentro de tu HTML, modificaremos la sección creada con la clase "productos".
+2. Dentro de esa sección, ordenaremos a los 3 <article> que representan a los productos diseñados en el ejercicio anterior.
+3. En tu archivo CSS, aplicá display: flex al padre para distribuir a los hijos de forma horizontal.
+Asegurate de:
+● Usar gap para separar las tarjetas
+● Usar flex-wrap para que se adapten en pantallas más chicas
+● Usar unidades relativas o anchos fijos para los productos según el diseño
+Barra de navegación
+¿Qué tenés que hacer?
+● Distribuir los ítems de la barra de navegación
+Revisá o creá una barra de navegación <nav> que contenga una lista <ul> con enlaces (<a>).
 En tu CSS, usá display flex en la lista para distribuir horizontalmente los ítems.
 Usá propiedades como:
 ● justify-content: space-around o space-between

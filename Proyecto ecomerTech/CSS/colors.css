@@ -1,0 +1,45 @@
+
+:root {
+    /* ===== Colores principales ===== */
+    --color-primary: #00B4FF;      /* Azul brillante */
+    --color-secondary: #FF6B00;    /* Naranja */
+
+    /* ===== Variaciones ===== */
+    --color-primary-dark: #0066FF;
+    --color-primary-light: #66D9FF;
+
+    --color-secondary-dark: #CC5500;
+    --color-secondary-light: #FF9A4D;
+
+    /* ===== Fondos ===== */
+    --bg-main: #0D1B2A;           /* Fondo principal */
+    --bg-secondary: #1B263B;      /* Cards y secciones */
+    --bg-light: #E5E7EB;          /* Fondos claros */
+
+    /* ===== Textos ===== */
+    --text-primary: #FFFFFF;
+    --text-secondary: #B8C1CC;
+    --text-dark: #0D1B2A;
+
+    /* ===== Estados ===== */
+    --success: #22C55E;
+    --warning: #F59E0B;
+    --error: #EF4444;
+    --info: #00B4FF;
+
+    /* ===== Bordes ===== */
+    --border-color: #2E4057;
+
+    /* ===== Sombras ===== */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.25);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.35);
+
+    /* ===== Gradiente de marca ===== */
+    --gradient-brand: linear-gradient(
+        135deg,
+        #00B4FF,
+        #0066FF,
+        #FF6B00
+    );
+}

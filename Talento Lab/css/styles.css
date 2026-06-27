@@ -4,9 +4,12 @@
 * {
     font-family: "Original Surfer", sans-serif;
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
-
 main {
     background: linear-gradient(red, blue);}
 
@@ -59,3 +62,18 @@ header nav ul li:hover a{
     color: yellow;
     padding: 5px;
 }
+
+.card_section {
+    display: flex;
+    align-self: center;
+    gap: 10px;
+}
+
+.card_section section {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+
